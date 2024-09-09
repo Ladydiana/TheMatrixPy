@@ -6,13 +6,13 @@ import imageio
 
 # Settings for the animation
 width, height = 600, 400  # Size of the output image
-font_size = 16  # Font size of the matrix characters
+font_size = 30  # Font size of the matrix characters
 columns = width // font_size  # Number of text columns
 rows = height // font_size  # Number of text rows
 frames = 200  # Increased number of frames for a longer animation
 
 highlighted_words = ["DATA", "ABINITIO", "POWER BI", "VR", "AR", "AI", "SQL", "BLENDER", "UNITY", "PYTHON"]
-highlighted_font_size = int(font_size * 8)  # bigger than the normal font
+highlighted_font_size = int(font_size * 2)  # bigger than the normal font
 
 
 # Create a font object
